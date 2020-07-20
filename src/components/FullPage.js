@@ -1,5 +1,6 @@
 import React from 'react'
 import Landing from './Landing'
+import About from './About'
 
 class FullPage extends React.Component {
 
@@ -8,6 +9,7 @@ class FullPage extends React.Component {
         return (
             <div>
                 <Landing />
+                <About />
             </div>
         )
     }

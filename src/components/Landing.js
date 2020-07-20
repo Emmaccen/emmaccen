@@ -16,8 +16,8 @@ class Landing extends React.Component {
                         <p>A Freelance Web Developer. I Bring Your Ideas To Life.</p>
                     </div>
                     <div>
-                            <button>PORTFOLIO</button>
-                            <button>HIRE ME</button>
+                            <button style={{minWidth : '110px'}}>PORTFOLIO</button>
+                            <button style={{minWidth : '110px'}}>HIRE ME</button>
                     </div>
                 </div>
             </div>

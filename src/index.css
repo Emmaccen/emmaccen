@@ -58,7 +58,7 @@ a {
 }
 .descText {
   color : var(--para);
-  font-size: 20px;
+  font-size: 17px;
 }
 
 button {
@@ -198,3 +198,31 @@ button:hover {
   color : var(--primaryColor);
 }
 
+/* about me style section */
+
+.aboutMeWrapper {
+  margin: 100px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.aboutMeWrapper button:first-child {
+  background-color: var(--primaryColor);
+  margin-left: 0px;
+}
+.aboutMeWrapper video {
+  height: 500px;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+}
+.aboutMeWrapper p {
+  width: 87%;
+}
+.aboutMeDesc {
+  width: 90%;
+  margin: auto;
+}
+.aboutMeDesc h1 {
+  margin-top: 0px;
+}
