@@ -7,7 +7,7 @@ class About extends React.Component {
 
         return (
             <div className='aboutMeWrapper'>
-                <video src='/vids/aboutShowcase.mp4' autoPlay='true' loop='true'>
+                <video autoPlay loop src='/vids/aboutShowcase.mp4'>
 
                 </video>
                 <div className='aboutMeDesc'>

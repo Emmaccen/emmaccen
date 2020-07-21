@@ -1,6 +1,7 @@
 import React from 'react'
 import Landing from './Landing'
 import About from './About'
+import Skills from './Skills'
 
 class FullPage extends React.Component {
 
@@ -10,6 +11,7 @@ class FullPage extends React.Component {
             <div>
                 <Landing />
                 <About />
+                <Skills />
             </div>
         )
     }
