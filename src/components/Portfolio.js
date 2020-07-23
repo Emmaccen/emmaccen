@@ -101,10 +101,18 @@ class Portfolio extends React.Component {
                     </header>
                 </div>
                 <div className='portfolioTabs'>
-                    <span onClick={ e => this.filter(e,'all')} className='currentTab portfolioTab'>All</span>
-                    <span onClick={ e => this.filter(e,'Web')} className='portfolioTab'>Web</span>
-                    <span onClick={ e => this.filter(e,'UI | UX')} className='portfolioTab'>UI/UX</span>
-                    <span onClick={ e => this.filter(e,'Mobile App')} className='portfolioTab'>Mobile</span>
+                    <span className='icon icon-list'>
+                        <label className='currentTab portfolioTab' onClick={ e => this.filter(e,'all')}>All</label>
+                    </span>
+                    <span className='icon icon-globe2'>
+                        <label className='portfolioTab' onClick={ e => this.filter(e,'Web')}>Web</label>
+                    </span>
+                    <span className='icon icon-round-brush'>
+                        <label className='portfolioTab' onClick={ e => this.filter(e,'UI | UX')}>UI/UX</label>
+                    </span>
+                    <span className='icon icon-mobile'>
+                        <label className='portfolioTab' onClick={ e => this.filter(e,'Mobile App')}>Mobile</label>
+                    </span>
                 </div>
                 <div className='container projects'>
                     {works}

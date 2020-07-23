@@ -64,6 +64,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.currentTab {
+  font-size: 22px !important;
+  color : var(--primaryColor) !important;
+}
 
 button {
   transition: .5s all ease;
@@ -79,6 +83,7 @@ button {
 }
 
 input, textarea {
+  transition: .5s all ease;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, .3);
   outline : none;
@@ -311,16 +316,14 @@ button:hover {
   text-align: center;
   margin-top: 50px;
 }
-.portfolioTabs span {
+.portfolioTabs .portfolioTab {
   cursor: pointer;
   transition: .3s all ease;
+  color : var(--fadeText);
+  margin-left: 10px;
 }
 .portfolioTabs span:not(:last-child) {
   margin-right: 30px;
-}
-.currentTab {
-  font-size: 25px;
-  color : var(--primaryColor);
 }
 .projectCover:hover > .overlay {
   transform: translateX(0%);
