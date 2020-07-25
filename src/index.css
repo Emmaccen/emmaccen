@@ -386,3 +386,68 @@ button:hover {
 .projectCover:hover > .project {
   transform: scale(1.1);
 }
+
+/* services section style */
+
+.servicesContainer::before {
+  position: absolute;
+  content: '';
+  top : 0px; left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+.servicesContainer {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-image: url('/images/slideOver.png');
+  background-attachment: fixed;
+  margin-top: 100px;
+}
+.servicesContainer header {
+  margin-top: 50px;
+}
+
+.serviceTitle {
+  position: relative;
+}
+.serviceTitle::after {
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 30px;
+  height: 1px;
+  background: #3e64ff;
+  margin: 0 auto;
+}
+.servicesContent {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin-top: -50px;
+}
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap : 35px;
+}
+.serviceContent {
+  transition: .5s all ease;
+  border-radius: 5px;
+  padding : 13% 5%;
+}
+.serviceContent span {
+  font-size: 40px;
+}
+.serviceContent p {
+  color : var(--para);
+  margin-top: 40px;
+  font-size: 18px;
+}
+.serviceContent:hover {
+  background-color: var(--fade);
+  /* cursor: pointer; */
+}

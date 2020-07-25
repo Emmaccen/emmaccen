@@ -25,9 +25,9 @@ class NavBar extends React.Component {
                             <li>Contact</li>
                         </ul>
                     </div>
-                </nav>
+                </div>
 
-            </div>
+            </nav>
         )
     }
 }
