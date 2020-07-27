@@ -2,6 +2,8 @@ import React from 'react'
 import projectsData from '../data/projects'
 
 function Projects (props) {
+    const icon = props.techIcon ? <span className={`${props.techIcon}`}></span> : 
+    <img src={props.techIconImg} alt='figma'></img>
 
     return (
         <div className='projectCover'>
@@ -18,7 +20,7 @@ function Projects (props) {
                     </button>
                 </div>
                 <div className='projectType flex-justify-sb'>
-                    <p><span className={`${props.techIcon}`}></span>{props.technology}</p>
+                    <p>{icon}{props.technology}</p>
                     <p><span className={`${props.typeIcon}`}></span>{props.type}</p>
                 </div>
             </div>
@@ -84,6 +86,7 @@ class Portfolio extends React.Component {
                 typeIcon = {project.typeIcon}
                 techIcon = {project.techIcon}
                 technology = {project.technology}
+                techIconImg = {project.techIconImg}
                 key = {project.name}
             />
             )
@@ -95,24 +98,16 @@ class Portfolio extends React.Component {
                         <h1>My <span className='accent'>Portfolio</span>
                         <span className='primary'>.</span></h1>
                         <p className='descText'>
-                            Explore some of my projects, built with love and passion. Some stable and maintained, 
+                        Explore some of my projects, built with love and passion. Some stable and maintained, 
                             others still in developement stage.
                         </p>
                     </header>
                 </div>
                 <div className='portfolioTabs'>
-                    <span className='icon icon-list'>
-                        <label className='currentTab portfolioTab' onClick={ e => this.filter(e,'all')}>All</label>
-                    </span>
-                    <span className='icon icon-globe2'>
-                        <label className='portfolioTab' onClick={ e => this.filter(e,'Web')}>Web</label>
-                    </span>
-                    <span className='icon icon-round-brush'>
-                        <label className='portfolioTab' onClick={ e => this.filter(e,'UI | UX')}>UI/UX</label>
-                    </span>
-                    <span className='icon icon-mobile'>
-                        <label className='portfolioTab' onClick={ e => this.filter(e,'Mobile App')}>Mobile</label>
-                    </span>
+                    <span onClick={ e => this.filter(e,'all')} className='currentTab portfolioTab'>All</span>
+                    <span onClick={ e => this.filter(e,'Web')} className='portfolioTab'>Web</span>
+                    <span onClick={ e => this.filter(e,'UI | UX')} className='portfolioTab'>UI/UX</span>
+                    <span onClick={ e => this.filter(e,'Mobile App')} className='portfolioTab'>Mobile</span>
                 </div>
                 <div className='container projects'>
                     {works}
