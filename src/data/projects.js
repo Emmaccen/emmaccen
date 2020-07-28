@@ -10,7 +10,7 @@ const projectsData = [
         techIcon : 'icon-genius',
         url : 'https://irislens.netlify.com/',
         image : ['/images/irisLens.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/iris',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     },
@@ -40,7 +40,7 @@ const projectsData = [
         techIcon : 'icon-genius',
         url : 'https://bevily.netlify.app/',
         image : ['/images/bevilyFoods.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/bevy',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     },
@@ -52,9 +52,9 @@ const projectsData = [
         typeIcon : 'icon-globe',
         technology : 'Html, Css & Js',
         techIcon : 'icon-html-five2',
-        url : '#',
+        url : 'https://emmaccen.github.io/emmaccen',
         image : ['/images/emmaccen.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/emmaccen',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     },
@@ -85,7 +85,7 @@ const projectsData = [
         techIcon : 'icon-genius',
         url : 'https://devstudy.netlify.app/',
         image : ['/images/learningPortal.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/LearningPortal',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     },
@@ -126,9 +126,9 @@ const projectsData = [
         typeIcon : 'icon-mobile',
         technology : 'Android Studio',
         techIcon : 'icon-android',
-        url : '#',
+        url : 'https://github.com/Emmaccen/iNote',
         image : ['/images/iNote.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/iNote',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     },
@@ -142,7 +142,7 @@ const projectsData = [
         techIcon : 'icon-genius',
         url : 'https://devlookup.netlify.app/',
         image : ['/images/devLookup.jpg'],
-        link : '',
+        link : 'https://github.com/Emmaccen/devprofile',
         linkHover : 'Git Repo',
         linkIcon : 'icon-git'
     }
