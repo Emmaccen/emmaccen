@@ -22,28 +22,28 @@ class Skills extends React.Component {
                         <div className='skills'>
                             <span className='icon-colours'></span>
                             <ul>
-                                <li>HTML - 95%</li>
-                                <li>CSS - 73%</li>
-                                <li>Bootstrap | JQuery - 55%</li>
-                                <li>Figma (UI | UX) - 50%</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap | JQuery</li>
+                                <li>Figma (UI | UX)</li>
                             </ul>
                         </div>
                         <div className='skills'>
                             <span className='icon-code'></span>
                             <ul>
-                                <li>JavaScript - 75%</li>
-                                <li>React.Js - 73%</li>
-                                <li>Angular - 58%</li>
-                                <li>Java - 85%</li>
+                                <li>JavaScript</li>
+                                <li>React.Js</li>
+                                <li>Angular</li>
+                                <li>Java</li>
                             </ul>
                         </div>
                         <div className='skills'>
                             <span className='icon-database'></span>
                             <ul>
-                                <li>Firebase - 65%</li>
-                                <li>Node JS - 30%</li>
-                                <li>Mongo DB - 0%</li>
-                                <li>Express JS - 0%</li>
+                                <li>Firebase</li>
+                                <li>Node JS</li>
+                                <li>Mongo DB</li>
+                                <li>Express JS</li>
                             </ul>
                         </div>
                     </div>
