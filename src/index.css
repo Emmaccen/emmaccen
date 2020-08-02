@@ -412,6 +412,9 @@ button:hover {
 .servicesContainer header {
   margin-top: 50px;
 }
+.servicesContainer .serviceContent .icon {
+  font-size: 50px;
+}
 
 .serviceTitle {
   position: relative;
@@ -454,4 +457,108 @@ button:hover {
 .serviceContent:hover {
   background-color: var(--fade);
   /* cursor: pointer; */
+}
+
+
+
+/* blogs section style */
+
+/* .blogsWrapper  {
+  width: 80%;
+  margin: 100px auto;
+}
+.blogsWrapper header  {
+  text-align: center;
+}
+
+.blogsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap : 30px;
+}
+.blogsContainer .blogContent .blogDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.blogsContainer .blogContent .blogDetails .icon {
+  margin: 0px 3px 0px 15px;
+}
+.blogDetails .authorName{
+  margin-left: 0px;
+  color : var(--accentColor);
+}
+.blogImg {
+  background-image: url('/images/irisLens.jpg');
+  height: 350px;
+  width: 100%;
+} */
+
+
+.blogsWrapper {
+  width: 80%;
+  margin: 100px auto;
+}
+.blogsWrapper header  {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blogsWrapper header .descText {
+  width: 52%;
+  margin : auto;
+}
+.blogsWrapper a {
+  margin: 15px;
+}
+.blogsGrid1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.blogsGrid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blogsWrapper .blogImg::before {
+  position: absolute;
+  content: '';
+  top: 0;left: 0;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+.blogsWrapper .blogImg{
+  position: relative;
+  transition: 1s all ease;
+  width: 100%;
+  height: 350px;  
+}
+.blogOverlay {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 2;
+  /* background-color: rgba(0,0,0,0.2); */
+}
+.blogOverlay h4 {
+  margin-bottom: 5px;
+  font-weight: 550;
+}
+.blogOverlay .icon {
+  margin: 0px 3px 0px 15px;
+}
+.blogOverlay .authorName{
+  margin: 0px 3px 0px 0px;
+  color : var(--accentColor);
+}
+.blogDesc {
+  color : #999;
+  font-size: 14px;
+}
+.blogContent {
+  overflow: hidden;
+}
+.blogContent:hover > .blogImg {
+  background-position: bottom;
+}
+.blogContent:nth-child(odd):hover > .blogImg {
+  
 }

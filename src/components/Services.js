@@ -22,7 +22,7 @@ class Services extends React.Component {
                         </div>
                         <div className='centered'>
                             <div className='serviceContent'>
-                                <span className='icon icon-lightbulb'></span>
+                                <span className='icon icon-round-brush'></span>
                                 <h1 className='serviceTitle'>UI | UX</h1>                    
                                 <p>
                                 User Interface designs done in Figma or AdobeXD as required or desired
@@ -31,7 +31,7 @@ class Services extends React.Component {
                         </div>
                         <div className='centered'>
                             <div className='serviceContent'>
-                                <span className='icon icon-genius'></span>
+                                <span className='icon icon-database'></span>
                                 <h1 className='serviceTitle'>Database</h1>                    
                                 <p>
                                 Creation and management of database in Firebase or MongoDB, Express.Js and Node.

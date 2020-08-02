@@ -4,6 +4,7 @@ import About from './About'
 import Skills from './Skills'
 import Portfolio from './Portfolio'
 import Services from './Services'
+import Blogs from './Blogs'
 
 class FullPage extends React.Component {
 
@@ -16,6 +17,7 @@ class FullPage extends React.Component {
                 <Skills />
                 <Portfolio />
                 <Services />
+                <Blogs />
             </div>
         )
     }
