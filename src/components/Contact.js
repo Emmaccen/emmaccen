@@ -6,7 +6,7 @@ class Contact extends React.Component {
 
     render () {
         return (
-            <div className='container contactWrapper'>
+            <div id='contact' className='container contactWrapper'>
                 <header className='centered'>
                     <h2 className='contactHeader'>Wanna <span className='accent'>Start Work</span> With Me ?</h2>
                 </header>
@@ -37,7 +37,7 @@ class Contact extends React.Component {
                                 </div>
                             </div>
                             <div>
-                                <h3>My Phone</h3>
+                                <h3>Phone</h3>
                                 <p className='contactLink'>+234-703-068-0817</p>
                             </div>
                         </a>
@@ -51,7 +51,7 @@ class Contact extends React.Component {
                                 </div>
                             </div>
                             <div>
-                                <h3>My Address</h3>
+                                <h3>Email</h3>
                                 <p className='contactLink'>oriolaemmanuel199@gmail.com</p>
                             </div>
                         </a>

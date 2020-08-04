@@ -92,7 +92,7 @@ class Portfolio extends React.Component {
             )
         })
         return (
-            <div className='portfolioWrapper'>
+            <div id='portfolio' className='portfolioWrapper'>
                 <div className='centered'>
                     <header>
                         <h1>My <span className='accent'>Portfolio</span>

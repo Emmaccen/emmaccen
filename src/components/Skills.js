@@ -6,7 +6,7 @@ class Skills extends React.Component {
     render () {
 
         return (
-            <div className='skillBg backgroundFix'>
+            <div id='skills' className='skillBg backgroundFix'>
                 <div className='skillsWrapper container'>
                     <header className='centered'>
                         <div>

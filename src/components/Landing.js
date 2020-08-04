@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './NavBar'
+import { NavBar, scrollToView } from './NavBar'
 
 
 class Landing extends React.Component {
@@ -7,7 +7,7 @@ class Landing extends React.Component {
     render () {
 
         return (
-            <div className='homepageWrapper backgroundFix'>
+            <div id='home' className='homepageWrapper backgroundFix'>
                 <NavBar />
                 <div className='jumbotron'>
                     <div>
@@ -16,8 +16,8 @@ class Landing extends React.Component {
                         <p>A Freelance Web Developer. I Bring Your Ideas To Life.</p>
                     </div>
                     <div>
-                            <button style={{minWidth : '110px'}}>PORTFOLIO</button>
-                            <button style={{minWidth : '110px'}}>HIRE ME</button>
+                            <button onClick={()=> scrollToView('portfolio')} style={{minWidth : '110px'}}>PORTFOLIO</button>
+                            <button onClick={()=> scrollToView('contact')} style={{minWidth : '110px'}}>HIRE ME</button>
                     </div>
                 </div>
             </div>

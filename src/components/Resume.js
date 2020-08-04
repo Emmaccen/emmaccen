@@ -76,7 +76,7 @@ class Resume extends React.Component {
         })
 
         return (
-            <div>
+            <div id='resume'>
                 <div className='resumeHeader'>
                     <header className='centered'>
                         <h1>My <span className='accent'>Resume</span>

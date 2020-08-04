@@ -731,3 +731,41 @@ button:hover {
   width: 100%;
   height: 100%;
 }
+
+
+/* Footer Section style */
+
+.footerWrapper {
+  background-color: var(--cardBackground);
+  padding : 30px;
+}
+.footerWrapper .footerContents {
+  display: flex;
+  justify-content: space-between;
+}
+.footerWrapper .footerContents .Footerlinks ul li{
+  transition: .5s all ease;
+  display: inline;
+  margin : 0px 10px;
+  cursor: pointer;
+}
+.footerWrapper .footerContents .Footerlinks ul li:hover {
+  color : var(--accentColor);
+}
+.footerContents span {
+  transition: .5s all ease;
+}
+.footerContents .icon {
+  color : var(--primaryColor);
+  font-size: 20px;
+  margin : 0px 10px;
+  cursor: pointer;
+}
+.footerContents .icon:hover {
+  color : var(--accentColor);
+}
+
+.footerContents .footerTexts, .Footerlinks .footerTexts * {
+  color : var(--fadeText);
+  font-size: 19px;
+}

@@ -4,7 +4,7 @@ class Services extends React.Component {
 
     render () {
         return (
-            <div className='backgroundFix centered servicesContainer'>
+            <div id='services' className='backgroundFix centered servicesContainer'>
                 <div className='servicesContent'>
                     <header className='centered'>
                         <h1>My <span className='accent'>Services</span>

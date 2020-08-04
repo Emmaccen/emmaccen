@@ -109,7 +109,7 @@ class Blogs extends React.Component {
         })
 
         return (
-            <div className='blogsWrapper'>
+            <div id='blogs' className='blogsWrapper'>
                 <header className='centered'>
                      <div>
                          <h1>My <span className='accent'>Blogs</span>
