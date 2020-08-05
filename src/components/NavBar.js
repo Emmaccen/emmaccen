@@ -1,6 +1,9 @@
 import React from 'react'
+import $ from 'jquery'
+
 /*Smooth scroll to a view when a nav link is selected and is on that same page*/
 function scrollToView(element){
+    $('#openNav').fadeOut()
     document.getElementById(element).scrollIntoView({
     behavior: 'smooth'
   });
@@ -8,6 +11,9 @@ function scrollToView(element){
 
 class NavBar extends React.Component {
 
+    openNav() {
+      $('#openNav').fadeToggle()
+    }
 
     render () {
 
@@ -17,10 +23,10 @@ class NavBar extends React.Component {
                 <div className='menuWrapper'>
                     <div className='logo'>
                         <img src='/images/logo.svg' alt='logo'></img>
-                        <span className='icon openNav'>Menu Icon</span>
+                        <span onClick={()=> this.openNav()} title='Open Menu' className='icon icon-list openNav'></span>
                     </div>
                     <div className='menuLinks'>
-                        <ul>
+                        <ul id='openNav'>
                             <li onClick={()=> scrollToView('home')}>Home</li>
                             <li onClick={()=> scrollToView('about')}>About</li>
                             <li onClick={()=> scrollToView('portfolio')}>Portfolio</li>

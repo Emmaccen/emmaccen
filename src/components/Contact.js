@@ -13,7 +13,7 @@ class Contact extends React.Component {
 
                 <div className='contactCards'>
 
-                    <div className='contactCard'>
+                    <div className='contactCard centered'>
                         <div className='contactDetails'>
                             <div className='centered'>
                                 <div className='iconBg centered'>
@@ -29,7 +29,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
 
-                    <div className='contactCard'>
+                    <div className='contactCard centered'>
                         <a href='tel:+234-703-068-0817' className='contactDetails'>
                             <div className='centered'>
                                 <div className='iconBg centered'>
@@ -43,7 +43,7 @@ class Contact extends React.Component {
                         </a>
                     </div>
 
-                    <div className='contactCard'>
+                    <div className='contactCard centered'>
                         <a href='mailto:oriolaemmanuel199@mail.com' className='contactDetails'>
                             <div className='centered'>
                                 <div className='iconBg centered'>

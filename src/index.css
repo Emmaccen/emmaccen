@@ -147,6 +147,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding : 10px 10%;
+  z-index: 4;
 }
 .logo {
   display: flex;
@@ -162,6 +163,10 @@ button:hover {
 }
 .logo .openNav {
   display: none;
+}
+.logo span {
+  font-size: 25px;
+  cursor: pointer;
 }
 .menuWrapper ul li {
   display: inline;
@@ -680,6 +685,9 @@ button:hover {
   margin: 0px 5px;
   font-size: 35px;
 }
+.contactCard .icon {
+  margin : 0px;
+}
 .contactDetails {
   display: flex;
 }
@@ -737,19 +745,22 @@ button:hover {
 
 .footerWrapper {
   background-color: var(--cardBackground);
-  padding : 30px;
+  padding : 30px 30px 10px 30px;
 }
 .footerWrapper .footerContents {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.footerWrapper .footerContents .Footerlinks ul li{
+.footerLinks, .footerSocials, .footerTexts{
+  margin : 0px 10px 10px 10px;
+}
+.footerWrapper .footerContents .footerLinks ul li{
   transition: .5s all ease;
   display: inline;
   margin : 0px 10px;
   cursor: pointer;
 }
-.footerWrapper .footerContents .Footerlinks ul li:hover {
+.footerWrapper .footerContents .footerLinks ul li:hover {
   color : var(--accentColor);
 }
 .footerContents span {
@@ -757,7 +768,7 @@ button:hover {
 }
 .footerContents .icon {
   color : var(--primaryColor);
-  font-size: 20px;
+  font-size: 25px;
   margin : 0px 10px;
   cursor: pointer;
 }
@@ -765,7 +776,248 @@ button:hover {
   color : var(--accentColor);
 }
 
-.footerContents .footerTexts, .Footerlinks .footerTexts * {
+.footerContents .footerTexts, .footerLinks .footerTexts * {
   color : var(--fadeText);
   font-size: 19px;
 }
+
+
+/* Responsiveness style section */
+
+/* Media Querys */
+
+@media (max-width : 1100px){
+
+  .aboutMeWrapper p {
+    width: 100%;
+
+
+  @media (max-width : 1000px) {
+    /* general */
+    p {
+      font-size: 14px !important;
+    }
+    /* nav section style */
+    .logo .openNav {
+      display: block;
+    }
+    .menuWrapper {
+      display: block;
+      overflow: hidden;
+    }
+    .menuWrapper ul li {
+      display: block;
+    }
+    .menuLinks ul{
+      overflow: hidden;
+      background-color: rgba(8,8,8);
+      height: auto;
+      display: none;
+    }
+    /* jumbotron */
+    .jumbotron {
+      left: 10%;right: 10%;
+      font-size: 20px;
+    }
+    .hello {
+      font-size: 30px;
+    }
+    .name {
+      font-size: 40px;
+    }
+
+    /* about me section */
+  .aboutMeWrapper{
+    display: block;
+  }
+  .aboutMeDesc header {
+    margin-top: 30px;
+  }
+  .aboutMeWrapper video {
+    height: 300px;
+    background-image: url('/images/code.png');
+  }
+
+  /* portfolio */
+  .portfolioWrapper header, .blogsWrapper .descText {
+    width: 70% !important;
+  }
+  .portfolioWrapper header p, .blogsWrapper header p {
+    font-size: 15px !important;
+  }
+  /* blogs */
+  .blogsWrapper {
+    width: 90%;
+  }
+  .blogsGrid1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogsGrid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* services */
+  .servicesContent {
+    width: 90%;
+  }
+  /* contact */
+  .contactCards {
+    width: 100%;
+  }
+
+  /* footer */
+  .footerWrapper * {
+    font-size: 15px !important;
+  }
+
+   /* 3rd media query */
+
+    /* landing section */
+
+    .homepageWrapper {
+      height: 650px;
+    }
+    .jumbotron {
+      left: 5%;right: 5%;
+    }
+    /* skill section */
+    .skillsContainer {
+      display: block;
+      width: 70%;
+      margin : auto;
+    }
+    .skillsWrapper .skills {
+      margin : 40px 0px;
+    }
+    /* portfolio section */
+    .projects {
+      display: block;
+    }
+    .project {
+      margin : 20px 0px;
+    }
+
+    /* service section */
+
+  .servicesContainer {
+    height: auto;
+  }
+  .services {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  .serviceContent {
+    margin : 10px 0px;
+  }
+  .serviceContent:last-child {
+    margin-bottom: 30px;
+  }
+  /* blogs section */
+  .blogsGrid1 {
+    display: block;
+  }
+  .blogsGrid2 {
+    display: block;
+  }
+
+  /* resume section */
+  .resumeContainer {
+    display: block;
+  }
+  .resumeContainer a {
+    display: block;
+  }
+  .resumeCard {
+    margin : 20px 0px;
+  }
+  /* contact section */
+  
+  .contactDetails {
+    display: block;
+    text-align: center;
+  }
+  .contactLink {
+    padding : 0px;
+  }
+  /* footer section */
+  .footerWrapper .footerContents {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  @media (max-width : 700px) {
+
+    /* landing */
+    /* jumbotron */
+    .jumbotron {
+      left: 5%;right: 5%;
+    }
+    .hello {
+      font-size: 20px;
+    }
+    .name {
+      font-size: 25px;
+    }
+    .homepageWrapper button {
+      margin-top: 20px;
+    }
+    
+
+    /* skill section */
+    .skillsWrapper header {
+      width: 90%;
+    }
+    /* contact section */
+    .contactCards {
+      display: block;
+    }
+    .contactCard {
+      margin : 30px 0px;
+    }
+    .contactFormContainer {
+      display: block;
+    }
+    .contactImg {
+      display: none;
+    }
+
+    @media (max-width : 500px){
+      
+      .homepageWrapper {
+        height: 570px;
+      }
+      .skillsContainer, .services {
+        width: 90%;
+      }
+      .portfolioWrapper header, .blogsWrapper .descText{
+        width: 90% !important;
+      }
+      .resumeTabs span {
+        display: block;
+        margin : 20px;
+      }
+      .resumeTabs span:nth-child(odd){
+        /* margin-left: -30%; */
+        text-align: left;
+      }
+      .resumeCardWrapper {
+        margin-top: 30px;
+      }
+      .contactHeader {
+        font-size: 18px;
+      }
+
+    }/*500*/
+
+
+  }/*700*/
+
+
+  }/*800*/
+
+
+  }/*1000px*/
+  
+
+
+}/*1100px*/

@@ -1,4 +1,5 @@
 import React from 'react'
+import { scrollToView } from './NavBar'
 
 
 class About extends React.Component {
@@ -7,7 +8,7 @@ class About extends React.Component {
 
         return (
             <div id='about' className='aboutMeWrapper'>
-                <video autoPlay loop src='/vids/aboutShowcase.mp4'>
+                <video className='backgroundFix' autoPlay loop src='/vids/aboutShowcase.mp4'>
 
                 </video>
                 <div className='aboutMeDesc'>
@@ -30,7 +31,7 @@ class About extends React.Component {
                     </div>
                     <div>
                         <button>Download CV</button>
-                        <button>View Resume</button>
+                        <button onClick={()=> scrollToView('resume')}>View Resume</button>
                     </div>
                 </div>
             </div>

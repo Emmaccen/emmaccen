@@ -8,12 +8,16 @@ class Footer extends React.Component {
 
         return (
             <div className='footerWrapper'>
-                <div className='container'>
+                <div>
                     <div className='footerContents'>
-                        <div className='footerTexts'>
-                            &copy; {new Date().getFullYear()} All Rights Reserved
+                        <div className='footerLinks'>
+                            <ul className='footerTexts'>
+                                <li onClick={()=> scrollToView('about')}>About</li>
+                                <li onClick={()=> scrollToView('portfolio')}>Portfolio</li>
+                                <li onClick={()=> scrollToView('resume')}>Resume</li>
+                            </ul>
                         </div>
-                        <div>
+                        <div className='footerSocials'>
                             <a href='https://twitter.com/Emmaccen'>
                                 <span className='icon icon-twitter'></span>
                             </a>
@@ -30,12 +34,8 @@ class Footer extends React.Component {
                                 <span className='icon icon-stackoverflow'></span>
                             </a>
                         </div>
-                        <div className='Footerlinks'>
-                            <ul className='footerTexts'>
-                                <li onClick={()=> scrollToView('about')}>About</li>
-                                <li onClick={()=> scrollToView('portfolio')}>Portfolio</li>
-                                <li onClick={()=> scrollToView('resume')}>Resume</li>
-                            </ul>
+                        <div className='footerTexts'>
+                            &copy; {new Date().getFullYear()} All Rights Reserved
                         </div>
                     </div>
                 </div>
