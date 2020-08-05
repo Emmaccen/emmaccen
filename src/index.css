@@ -790,6 +790,7 @@ button:hover {
 
   .aboutMeWrapper p {
     width: 100%;
+  }
 
 
   @media (max-width : 1000px) {
@@ -870,6 +871,7 @@ button:hover {
   }
 
    /* 3rd media query */
+   @media (max-width : 800px) {
 
     /* landing section */
 
