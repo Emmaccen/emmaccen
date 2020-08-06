@@ -933,7 +933,9 @@ button:hover {
     margin : 20px 0px;
   }
   /* contact section */
-  
+  .contactCard {
+    padding-top: 10px;
+  }
   .contactDetails {
     display: block;
     text-align: center;
