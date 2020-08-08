@@ -33,6 +33,9 @@ class Footer extends React.Component {
                             <a href='https://stackoverflow.com/users/11299893/emmaccen'>
                                 <span className='icon icon-stackoverflow'></span>
                             </a>
+                            <a href='mailto:oriolaemmanuel199@gmail.com'>
+                                <span className='icon icon-mail4'></span>
+                            </a>
                         </div>
                         <div className='footerTexts'>
                             &copy; {new Date().getFullYear()} All Rights Reserved

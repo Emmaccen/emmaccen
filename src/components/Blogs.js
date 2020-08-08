@@ -1,9 +1,12 @@
 import React from 'react'
 import blogsData from '../data/blogs'
+import Fade from 'react-reveal/Fade';
 
 function BlogTemplate (props) {
     return (
-        <a href={props.linkUrl} className='blogContent'>
+        <Fade bottom >
+        <a href={props.linkUrl} rel='noopener noreferrer' 
+         target='_blank' className='blogContent'>
             <div className='backgroundFix blogImg' 
             style={{backgroundImage : `url(${props.imageUrl})`}}>
                 <div className='blogOverlay'>
@@ -17,6 +20,7 @@ function BlogTemplate (props) {
                 </div>
             </div>
         </a>
+        </Fade>
     )
 }
 
@@ -115,10 +119,12 @@ class Blogs extends React.Component {
                          <h1>My <span className='accent'>Blogs</span>
                              <span className='primary'>.</span>
                          </h1>
+                         <Fade bottom>
                          <p className='descText'>
                              Explore some of my many programming blogs on dev.to. Feel free 
                              to support me by reading, starting a discussion or leaving a reaction (like, unicorn, bookmarking, etc).
                          </p>
+                         </Fade>
                      </div>
                  </header>
                 <div className='blogsGrid1'>

@@ -1,11 +1,14 @@
 import React from 'react'
 import projectsData from '../data/projects'
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 function Projects (props) {
     const icon = props.techIcon ? <span className={`${props.techIcon}`}></span> : 
     <img src={props.techIconImg} alt='figma'></img>
 
     return (
+        <Fade bottom>
         <div className='projectCover'>
             <div style={{backgroundImage : `url(${props.image})`}} className='backgroundFix project'></div>
             <div className='overlay'>
@@ -25,6 +28,7 @@ function Projects (props) {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 
@@ -94,6 +98,7 @@ class Portfolio extends React.Component {
         return (
             <div id='portfolio' className='portfolioWrapper'>
                 <div className='centered'>
+                    <Slide left>
                     <header>
                         <h1>My <span className='accent'>Portfolio</span>
                         <span className='primary'>.</span></h1>
@@ -102,6 +107,7 @@ class Portfolio extends React.Component {
                             others still in developement stage.
                         </p>
                     </header>
+                    </Slide>
                 </div>
                 <div className='portfolioTabs'>
                     <span onClick={ e => this.filter(e,'all')} className='currentTab portfolioTab'>All</span>

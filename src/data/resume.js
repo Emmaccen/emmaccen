@@ -1,9 +1,9 @@
 const resume = [
     {
         date : 'Aug 2020 - Present',
-        title : 'Front-end developer',
-        desc : `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc, 
-        with deep and diverse skills in technology solutions.`,
+        title : 'Back-End developer',
+        desc : `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc. 
+        Worked on project backend and database using .Net and C#.`,
         company : 'Quomodo Systems',
         location : 'Abuja, Nigeria.',
         icon : 'icon-stack',
@@ -13,7 +13,7 @@ const resume = [
     {
         date : 'July 2020 - Present',
         title : 'Full Stack Engineer - Intern',
-        desc : `Working with Dualogic and a team of developers in the creation of an ecommerce website that solves 
+        desc : `Working with Dualogic and a team of developers in the creation of an ecommerce website with the aim of solving  
         common ecommerce problems world wide.`,
         company : 'Dualogic',
         location : 'Mumbai, India.',
@@ -25,7 +25,8 @@ const resume = [
         date : 'May 2020 - Jul 2020',
         title : 'front-end developer - Intern',
         desc : `ArtCab is a breakthrough web application in the ecosystem of film development and film production. 
-        ArtCab simplifies the complex process of collaboration and crew-building in the process of filmmaking`,
+        ArtCab simplifies the complex process of collaboration and crew-building in the process of filmmaking. 
+        Worked and managed company website.`,
         company : 'ArtCab',
         location : 'Mumbai, India.',
         icon : 'icon-stack',
@@ -36,7 +37,7 @@ const resume = [
         date : 'Jan, 2020 - June, 2020',
         title : 'full-stack web developer',
         desc : `Page is a company that provides software development services such as 
-        UI-UX designs, Mobile and Web applications, consultancy and more. Worked as a web developer`,
+        UI-UX designs, Mobile and Web applications, consultancy and more. Worked as a Full-Stack web developer.`,
         company : 'Page',
         location : 'Lagos, Nigeria.',
         icon : 'icon-stack',
@@ -44,10 +45,10 @@ const resume = [
         link : ''
     },
     {
-        date : 'jan 2018 - Aug, 2020',
+        date : 'Jan 2018 - Aug, 2020',
         title : 'Barista',
         desc : `Vestar is the "Home Of Splendiferous Beverage". Deals in coffee, teas, pastries and more. 
-        Worked as a Barista and customer service representative`,
+        Worked as a Barista and customer service representative.`,
         company : 'Vestar Coffee',
         location : 'Lagos, Nigeria.',
         icon : 'icon-stack',
@@ -66,10 +67,10 @@ const resume = [
         link : ''
     },
     {
-        date : 'jan 2020 - Present',
+        date : 'Jan 2020 - Present',
         title : 'Computer Science (CS50)',
         desc : `CS50 is Harvard's introduction to the intellectual enterprises of computer science and the art of programming. 
-        It's an entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently`,
+        It's an entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently.`,
         company : 'Harvard',
         location : 'Remote',
         icon : 'icon-graduation-cap',

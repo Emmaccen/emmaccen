@@ -1,4 +1,5 @@
 import React from 'react'
+import Slide from 'react-reveal/Slide';
 
 class Skills extends React.Component {
 
@@ -8,6 +9,7 @@ class Skills extends React.Component {
         return (
             <div id='skills' className='skillBg backgroundFix'>
                 <div className='skillsWrapper container'>
+                    <Slide right>
                     <header className='centered'>
                         <div>
                             <h1>My <span className='accent'>Skills</span>
@@ -18,6 +20,8 @@ class Skills extends React.Component {
                             learning new things, improving and staying up-to-date.</p>
                         </div>
                     </header>
+                    </Slide>
+                    <Slide bottom>
                     <div className='skillsContainer'>
                         <div className='skills'>
                             <span className='icon-colours'></span>
@@ -47,6 +51,7 @@ class Skills extends React.Component {
                             </ul>
                         </div>
                     </div>
+                    </Slide>
                 </div>
             </div>
         )

@@ -1,10 +1,12 @@
 import React from 'react'
 import resume from '../data/resume'
+import Fade from 'react-reveal/Fade';
 
 function EducationTemplate (props) {
     return (
         <a href={props.link === '' ? null : props.link} rel='noopener noreferrer' 
         target='_blank' className='resumeCard'>
+        <Fade bottom>
             <p className='resumeDate'>
                 <span className={`icon ${props.icon}`}></span>
                 {props.date}
@@ -15,6 +17,7 @@ function EducationTemplate (props) {
                 <p><span className='icon icon-office'></span>{props.company}</p>
                 <p><span className='icon icon-location'></span>{props.location}</p>
             </div>
+        </Fade>
         </a>
     )
 }
@@ -77,6 +80,7 @@ class Resume extends React.Component {
 
         return (
             <div id='resume'>
+                <Fade bottom>
                 <div className='resumeHeader'>
                     <header className='centered'>
                         <h1>My <span className='accent'>Resume</span>
@@ -100,6 +104,7 @@ class Resume extends React.Component {
                         {edu}
                     </div>
                 </div>
+                </Fade>
             </div>
         )
     }

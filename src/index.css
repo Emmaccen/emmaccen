@@ -667,7 +667,7 @@ button:hover {
 .contactCard p, .contactCard a {
   font-size: 13px;
 }
-.contactCard:hover {
+.contactCards .contactCard:hover {
   cursor: pointer;
   transform: rotate(5deg);
   box-shadow: 2px 2px 10px 5px rgba(9,9,9);

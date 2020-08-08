@@ -22,7 +22,7 @@ class NavBar extends React.Component {
 
                 <div className='menuWrapper'>
                     <div className='logo'>
-                        <img src='/images/logo.svg' alt='logo'></img>
+                        <img onClick={()=> window.location.reload(true)} src='/images/logo.svg' alt='logo'></img>
                         <span onClick={()=> this.openNav()} title='Open Menu' className='icon icon-list openNav'></span>
                     </div>
                     <div className='menuLinks'>
