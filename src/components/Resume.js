@@ -61,7 +61,7 @@ class Resume extends React.Component {
         this.setState({
             resume,
             current : defaultResume,
-            activeTab : 'Education'
+            activeTab : 'Experience'
         })
     }
     render () {

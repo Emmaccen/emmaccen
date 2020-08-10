@@ -30,7 +30,7 @@ class About extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <button>Download CV</button>
+                        <button onClick={()=> {window.open('./files/cv.pdf')}}>Download CV</button>
                         <button onClick={()=> scrollToView('resume')}>View Resume</button>
                     </div>
                 </div>
