@@ -75,6 +75,7 @@ class Resume extends React.Component {
                 location = {details.location}
                 icon = {details.icon}
                 link = {details.link}
+                key = {details.title}
             />
         })
 
