@@ -1,9 +1,56 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import { handleNotification } from './Notification'
+import $ from 'jquery'
 
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
 
 class Contact extends React.Component {
 
+    checkForErrors (name, email, subject, message) {
+        if(name === "" || email === "" || subject === "" || message === ""){
+            console.log(name, email, subject, message)
+            return true;
+        }else {
+            console.log(name, email, subject, message)
+            return false;
+        }
+    }
+
+    sendMessage(e) {
+        e.preventDefault()
+        let fullName = $('#fullName').val()
+        let email = $('#email').val()
+        let subject = $('#subject').val()
+        let message = $('#message').val()
+
+        if(this.checkForErrors(fullName,email,subject,message)){
+            // we've got blank fields... display Error-message
+            handleNotification("Please Input All Fields")
+        }else {
+            // No blank fields so... Everyone is happy :)
+            handleNotification('Processing Request...')
+            const db = firebase.firestore();
+            db.collection('clients').doc(new Date().toString()).set({
+                customer : fullName,
+                mail : email,
+                messageSubject : subject,
+                messageText : message,
+                serverTimestamp : firebase.firestore.FieldValue.serverTimestamp()
+            })
+            .then(function(){
+                handleNotification('Message Sent Successfuly !');
+                $('#fullName').val('')
+                $('#email').val('')
+                $('#subject').val('')
+                $('#message').val('')
+            })
+            .catch(e => handleNotification("Something Went Wrong ! " + e))
+            }
+        
+    }
 
     render () {
         return (
@@ -73,11 +120,11 @@ class Contact extends React.Component {
                     <div>
                         {/* <h3>Get In <span className='accent'>Touch</span>
                         <span className='primary'>.</span></h3> */}
-                        <form className='formGroup'>
-                            <input required type='text' placeholder='Full Name'></input>
-                            <input required type='email' placeholder='Email'></input>
-                            <input required type='text' placeholder='Subject'></input>
-                            <textarea required placeholder='Message...'></textarea>
+                        <form className='formGroup' onSubmit={(e)=> this.sendMessage(e)}>
+                            <input required id='fullName'  type='text' placeholder='Full Name'></input>
+                            <input required id='email'  type='email' placeholder='Email'></input>
+                            <input required id='subject'  type='text' placeholder='Subject'></input>
+                            <textarea required id='message'  placeholder='Message...'></textarea>
                             <button type='submit'>Send Message</button>
                         </form>
                     </div>

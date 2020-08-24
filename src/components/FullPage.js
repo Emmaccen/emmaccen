@@ -8,6 +8,7 @@ import Blogs from './Blogs'
 import Resume from './Resume'
 import Contact from './Contact'
 import Footer from './Footer'
+import { Notification } from './Notification'
 
 class FullPage extends React.Component {
 
@@ -24,6 +25,7 @@ class FullPage extends React.Component {
                 <Resume />
                 <Contact />
                 <Footer />
+                <Notification />
             </div>
         )
     }

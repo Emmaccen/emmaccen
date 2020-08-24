@@ -122,6 +122,26 @@ button:hover {
   color : whitesmoke;
 }
 
+/* Message Notification style Section */
+
+.notificationContainer {
+  transition: .5s all ease;
+  position: fixed;
+  background-color: var(--cardBackground);
+  width: auto;
+  margin : auto;
+  padding : 10px 15px;
+  border-radius: 10px;
+  z-index: 1000;
+  bottom : -50px;
+  left: 20px;
+}
+.notificationContainer p {
+  color : whitesmoke !important;
+  margin : 0px;
+}
+
+
 /* homepage style section  */
 
 .homepageWrapper::before {
