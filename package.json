@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^7.18.0",
     "jquery": "^3.5.1",
-    "netlify": "^4.3.10",
+    "netlify": "^4.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
