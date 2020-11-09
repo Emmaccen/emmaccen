@@ -212,7 +212,7 @@ button:hover {
   right: 20%;
   text-align: center;
   font-size: 25px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(35, 206, 107, 0.1);
   border-right: 1px solid rgba(73, 139, 101, 0.1);
   padding: 20px;
