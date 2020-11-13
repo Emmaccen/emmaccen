@@ -75,8 +75,8 @@ const resume = [
     location: "Remote",
     icon: "icon-graduation-cap",
     type: "education",
-    link:
-      "https://online-learning.harvard.edu/course/cs50-introduction-computer-science",
+    link: "",
+    // https://online-learning.harvard.edu/course/cs50-introduction-computer-science
   },
   {
     date: "June 2020",
