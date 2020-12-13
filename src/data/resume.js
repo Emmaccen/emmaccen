@@ -1,7 +1,7 @@
 const resume = [
   {
     date: "Aug 2020 - Present",
-    title: "Back-End developer",
+    title: "Full-Stack Developer",
     desc: `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc. 
         Worked on project backend and database using .Net and C#.`,
     company: "Quomodo Systems",
