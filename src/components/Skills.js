@@ -27,7 +27,7 @@ class Skills extends React.Component {
                 <span className="icon-colours"></span>
                 <ul>
                   <li>HTML</li>
-                  <li>CSS</li>
+                  <li>CSS | Sass</li>
                   <li>Bootstrap | JQuery</li>
                   <li>Figma (UI | UX)</li>
                 </ul>
@@ -38,16 +38,16 @@ class Skills extends React.Component {
                   <li>JavaScript</li>
                   <li>React.Js</li>
                   <li>Angular</li>
-                  <li>Java</li>
+                  <li>Java | C#</li>
                 </ul>
               </div>
               <div className="skills">
                 <span className="icon-database"></span>
                 <ul>
                   <li>Firebase</li>
-                  <li>Node JS</li>
-                  <li>Mongo DB</li>
-                  <li>Express JS</li>
+                  <li>.NET Core</li>
+                  <li>C#</li>
+                  <li>Entity Framework</li>
                 </ul>
               </div>
             </div>
