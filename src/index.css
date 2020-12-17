@@ -1,7 +1,7 @@
 body {
   margin: 0;
   /* font-family: 'Handlee', cursive; */
-  font-family: "Laila", cursive;
+  font-family: "Laila", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--dark);
