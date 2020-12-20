@@ -205,6 +205,7 @@ button:hover {
 }
 
 .jumbotron {
+  font-family: "Raleway";
   color: #fff;
   position: absolute;
   top: 23%;
