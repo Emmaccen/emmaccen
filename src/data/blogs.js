@@ -10,12 +10,12 @@ const blogsData = [
     reactionCount: "1100",
   },
   {
-    title: "Best Productivity Applications For Programmers",
+    title: `How To Create A "Glassmorphic" Template In Pure HTML & CSS.`,
     author: "Emmaccen",
-    imageUrl: "/images/blog2.jpg",
+    imageUrl: "/images/glassmorphism.jpg",
     linkUrl:
-      "https://dev.to/emmaccen/how-to-integrate-a-rich-text-editor-wysiwyg-in-your-react-js-project-1i4o",
-    date: "Jan 20",
+      "https://dev.to/emmaccen/how-to-create-a-glassmorphic-template-in-pure-html-css-3jo4",
+    date: "Dec 21",
     commentCount: "1201",
     reactionCount: "5100",
   },

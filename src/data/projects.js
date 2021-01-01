@@ -46,6 +46,19 @@ const projectsData = [
     linkIcon: "icon-git",
   },
   {
+    name: "Ludidi Properties",
+    desc: `LCM Properties is a commercial and residential property management company with properties in diverse locations throughout South Africa.`,
+    type: "Web",
+    typeIcon: "icon-globe",
+    technology: "React.Js",
+    techIcon: "icon-genius",
+    url: "https://ludidi.netlify.app/",
+    image: ["/images/ludidi.jpg"],
+    link: "https://github.com/Emmaccen/",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
+  {
     name: "Portfolio Website",
     desc: `Created by yours truly, slowing being optimized for efficiency, frequently updated and chiseled for 
         high flexibility. This Website is owned and managed by me.`,
