@@ -30,7 +30,7 @@ class Footer extends React.Component {
               <a href="https://stackoverflow.com/users/11299893/emmaccen">
                 <span className="icon icon-stackoverflow"></span>
               </a>
-              <a href="mailto:oriolaemmanuel199@gmail.com">
+              <a href="mailto:lucius.emmanuel.e@gmail.com">
                 <span className="icon icon-mail4"></span>
               </a>
             </div>

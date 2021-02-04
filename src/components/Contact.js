@@ -99,7 +99,7 @@ class Contact extends React.Component {
           <div className="contactCard centered">
             <Fade bottom>
               <a
-                href="mailto:oriolaemmanuel199@mail.com"
+                href="mailto:lucius.emmanuel.e@mail.com"
                 className="contactDetails"
               >
                 <div className="centered">
@@ -109,7 +109,7 @@ class Contact extends React.Component {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="contactLink">oriolaemmanuel199@gmail.com</p>
+                  <p className="contactLink">lucius.emmanuel.e@gmail.com</p>
                 </div>
               </a>
             </Fade>
