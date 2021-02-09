@@ -45,6 +45,20 @@ const projectsData = [
     linkHover: "Git Repo",
     linkIcon: "icon-git",
   },
+
+  {
+    name: "Okemesi In Diaspora",
+    desc: `Okemesi in Diaspora (OiD) is an association of people living far from home who came together to empower others thorough development programs and projects`,
+    type: "Web",
+    typeIcon: "icon-globe",
+    technology: "React.Js",
+    techIcon: "icon-genius",
+    url: "https://okemesi.netlify.app/",
+    image: ["/images/okemesi.jpg"],
+    link: "https://github.com/Emmaccen/",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
   {
     name: "Ludidi Properties",
     desc: `LCM Properties is a commercial and residential property management company with properties in diverse locations throughout South Africa.`,

@@ -82,7 +82,7 @@ class Contact extends React.Component {
 
           <div className="contactCard centered">
             <Fade bottom>
-              <a href="tel:+234-703-068-0817" className="contactDetails">
+              <a href="tel:+234-814-397-2237" className="contactDetails">
                 <div className="centered">
                   <div className="iconBg centered">
                     <span className="icon icon-phone"></span>
@@ -90,7 +90,7 @@ class Contact extends React.Component {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p className="contactLink">+234-703-068-0817</p>
+                  <p className="contactLink">+234-814-397-2237</p>
                 </div>
               </a>
             </Fade>

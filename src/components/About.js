@@ -44,7 +44,7 @@ class About extends React.Component {
             <div>
               <button
                 onClick={() => {
-                  window.open("./files/cv.pdf");
+                  window.open("./files/emmanuel-lucius.pdf");
                 }}
               >
                 Download CV
