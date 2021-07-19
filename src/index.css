@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  /* font-family: 'Handlee', cursive; */
-  font-family: "Laila", sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--dark);
@@ -205,7 +204,6 @@ button:hover {
 }
 
 .jumbotron {
-  font-family: "Raleway";
   color: #fff;
   position: absolute;
   top: 23%;

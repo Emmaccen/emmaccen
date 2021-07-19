@@ -37,8 +37,8 @@ class Skills extends React.Component {
                 <ul>
                   <li>JavaScript</li>
                   <li>React.Js</li>
-                  <li>Angular</li>
-                  <li>Java | C#</li>
+                  <li>C#</li>
+                  <li>Java</li>
                 </ul>
               </div>
               <div className="skills">
