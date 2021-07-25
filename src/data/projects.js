@@ -1,5 +1,48 @@
 const projectsData = [
   {
+    name: "Beverage e-store",
+    desc: `This is an enterprises e-commerce application mostly targeted towards beverage stores. 
+    Feel free to chat me up to know more. I've kept the repository private and the domo site might be offline soon.`,
+    type: "Web",
+    typeIcon: "icon-globe",
+    technology: "React.Js",
+    techIcon: "icon-genius",
+    url: "https://bevy-store.netlify.app/admin/dashboard",
+    image: ["/images/bevy-store.png"],
+    link: "",
+    linkHover: "Repository Is Private",
+    linkIcon: "icon-git",
+  },
+  {
+    name: "Siwes UI",
+    desc: ``,
+    type: "UI | UX",
+    typeIcon: "icon-round-brush",
+    technology: "Figma",
+    techIcon: "",
+    techIconImg: "/images/figma.svg",
+    url: "https://www.figma.com/proto/gePnC81zNLB6tgUZJKradU/Portfolio-Blog-Layout?node-id=0%3A3&scaling=scale-down-width",
+    image: ["/images/siwes.png"],
+    link: "https://www.pinterest.com/emaccen/ui-ux/",
+    linkHover: "Pinterest",
+    linkIcon: "icon-pinterest2",
+  },
+  {
+    name: "Bevily Foods",
+    desc: `'Bevily Foods' is a food company that offers commercial food services to people ranging from online 
+        food ordering to table bookings and many more. Its a side project i came up with, and this online store is 
+        purely fictious and non-existent. I love playing around with designs and applications.`,
+    type: "Web",
+    typeIcon: "icon-globe",
+    technology: "React.Js",
+    techIcon: "icon-genius",
+    url: "https://bevily.netlify.app/",
+    image: ["/images/bevilyFoods.jpg"],
+    link: "https://github.com/Emmaccen/bevy",
+    linkHover: "Git Repo",
+    linkIcon: "icon-git",
+  },
+  {
     name: "IrisLens Photography",
     desc: `IrisLens is a Photography website owned by David Aderogba, dedicated to helping 
         you keep memories in the most perfect and splendiferous way. They care about people and 
@@ -23,27 +66,11 @@ const projectsData = [
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url:
-      "https://www.figma.com/proto/gePnC81zNLB6tgUZJKradU/Portfolio-Blog-Layout?node-id=0%3A3&scaling=scale-down-width",
+    url: "https://www.figma.com/proto/gePnC81zNLB6tgUZJKradU/Portfolio-Blog-Layout?node-id=0%3A3&scaling=scale-down-width",
     image: ["/images/blogUi.png"],
     link: "https://www.pinterest.com/emaccen/ui-ux/",
     linkHover: "Pinterest",
     linkIcon: "icon-pinterest2",
-  },
-  {
-    name: "Bevily Foods",
-    desc: `'Bevily Foods' is a food company that offers commercial food services to people ranging from online 
-        food ordering to table bookings and many more. Its a side project i came up with, and this online store is 
-        purely fictious and non-existent. I love playing around with designs and applications.`,
-    type: "Web",
-    typeIcon: "icon-globe",
-    technology: "React.Js",
-    techIcon: "icon-genius",
-    url: "https://bevily.netlify.app/",
-    image: ["/images/bevilyFoods.jpg"],
-    link: "https://github.com/Emmaccen/bevy",
-    linkHover: "Git Repo",
-    linkIcon: "icon-git",
   },
 
   {
@@ -72,20 +99,20 @@ const projectsData = [
     linkHover: "Git Repo",
     linkIcon: "icon-git",
   },
-  {
-    name: "Portfolio Website",
-    desc: `Created by yours truly, slowing being optimized for efficiency, frequently updated and chiseled for 
-        high flexibility. This Website is owned and managed by me.`,
-    type: "Web",
-    typeIcon: "icon-globe",
-    technology: "Html, Css & Js",
-    techIcon: "icon-html-five2",
-    url: "https://emmaccen.github.io/emmaccen",
-    image: ["/images/emmaccen.jpg"],
-    link: "https://github.com/Emmaccen/emmaccen",
-    linkHover: "Git Repo",
-    linkIcon: "icon-git",
-  },
+  // {
+  //   name: "Portfolio Website",
+  //   desc: `Created by yours truly, slowing being optimized for efficiency, frequently updated and chiseled for
+  //       high flexibility. This Website is owned and managed by me.`,
+  //   type: "Web",
+  //   typeIcon: "icon-globe",
+  //   technology: "Html, Css & Js",
+  //   techIcon: "icon-html-five2",
+  //   url: "https://emmaccen.github.io/emmaccen",
+  //   image: ["/images/emmaccen.jpg"],
+  //   link: "https://github.com/Emmaccen/emmaccen",
+  //   linkHover: "Git Repo",
+  //   linkIcon: "icon-git",
+  // },
   {
     name: "Fahion UI",
     desc: `This Project was originally developed for a friend intending to open a fashion store. 
@@ -96,8 +123,7 @@ const projectsData = [
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url:
-      "https://www.figma.com/proto/qQsciKWiGpSTkLDBDq56Ho/Fashion?node-id=1%3A6&scaling=min-zoom",
+    url: "https://www.figma.com/proto/qQsciKWiGpSTkLDBDq56Ho/Fashion?node-id=1%3A6&scaling=min-zoom",
     image: ["/images/fashion.jpg"],
     link: "https://www.pinterest.com/emaccen/ui-ux/",
     linkHover: "Pinterest",
@@ -127,8 +153,7 @@ const projectsData = [
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url:
-      "https://www.figma.com/proto/EG1W40kQchAejdcGi1de9Q/Deepak-s-UI?node-id=1%3A2&scaling=scale-down-width",
+    url: "https://www.figma.com/proto/EG1W40kQchAejdcGi1de9Q/Deepak-s-UI?node-id=1%3A2&scaling=scale-down-width",
     image: ["/images/portfolioUi.png"],
     link: "https://www.pinterest.com/emaccen/ui-ux/",
     linkHover: "Pinterest",
@@ -142,8 +167,7 @@ const projectsData = [
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url:
-      "https://www.figma.com/proto/4nJsGbAA6zscY1DYOiHxxx/Maykup?node-id=4%3A49&scaling=scale-down-width",
+    url: "https://www.figma.com/proto/4nJsGbAA6zscY1DYOiHxxx/Maykup?node-id=4%3A49&scaling=scale-down-width",
     image: ["/images/maykup.jpg"],
     link: "https://www.pinterest.com/emaccen/ui-ux/",
     linkHover: "Pinterest",
