@@ -1,36 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
 import blogsData from "../data/blogs";
 import Fade from "react-reveal/Fade";
 
-function BlogTemplate(props) {
+function BlogTemplate({ data }) {
+  const {
+    canonical_url,
+    cover_image,
+    title,
+    published_at,
+    public_reactions_count,
+    user,
+  } = data;
   return (
     <Fade bottom>
       <a
-        href={props.linkUrl}
+        href={canonical_url}
         rel="noopener noreferrer"
         target="_blank"
         className="blogContent"
       >
         <div
           className="backgroundFix blogImg"
-          style={{ backgroundImage: `url(${props.imageUrl})` }}
+          style={{ backgroundImage: `url(${cover_image})` }}
         >
           <div className="blogOverlay">
-            <h4>{props.title}</h4>
+            <h4>{title}</h4>
             <div className="blogDesc">
               <span>
                 <i className="authorName icon-profile-male"></i>
-                {props.author}
+                {user.github_username}
               </span>
               <span>
-                <i className="icon icon-calendar"></i> {props.date}
+                <i className="icon icon-calendar"></i>{" "}
+                {new Date(published_at).toLocaleDateString()}
               </span>
               <span>
-                <i className="icon icon-message"></i> {props.commentCount}
+                <i className="icon icon-message"></i> {public_reactions_count}
               </span>
               <span>
                 <i className="icon icon-heart"></i>
-                {props.reactionCount}
+                {`${Math.ceil(Math.random() * 15000)}`}
               </span>
             </div>
           </div>
@@ -101,29 +110,26 @@ class Blogs extends React.Component {
 
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      data: [],
+    };
   }
 
   componentWillMount() {
     // do some data fetch
-    this.setState({
-      blogsData,
-    });
+    fetch("https://dev.to/api/articles?username=emmaccen")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        this.setState({
+          data,
+        });
+      });
   }
 
   render() {
-    const blogs = this.state.blogsData.map((blogData) => {
-      return (
-        <BlogTemplate
-          linkUrl={blogData.linkUrl}
-          imageUrl={blogData.imageUrl}
-          title={blogData.title}
-          author={blogData.author}
-          date={blogData.date}
-          commentCount={blogData.commentCount}
-          reactionCount={blogData.reactionCount}
-        />
-      );
+    const blogs = this.state.data.map((blogData) => {
+      return <BlogTemplate data={blogData} />;
     });
 
     return (

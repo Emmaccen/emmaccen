@@ -55,24 +55,37 @@ const resume = [
     type: "experience",
     link: "",
   },
+  // {
+  //   date: "March 2015 - Dec, 2016",
+  //   title: "Junior Teacher",
+  //   desc: `Worked as a Junior teacher, lecturing Senior Primary (All curriculum) and
+  //       seldom Junior Secondary students in Biology and Chemistry (Scheduled).`,
+  //   company: "Heritage School",
+  //   location: "Lagos, Nigeria.",
+  //   icon: "icon-stack",
+  //   type: "experience",
+  //   link: "",
+  // },
   {
-    date: "March 2015 - Dec, 2016",
-    title: "Junior Teacher",
-    desc: `Worked as a Junior teacher, lecturing Senior Primary (All curriculum) and 
-        seldom Junior Secondary students in Biology and Chemistry (Scheduled).`,
-    company: "Heritage School",
-    location: "Lagos, Nigeria.",
-    icon: "icon-stack",
-    type: "experience",
-    link: "",
-  },
-  {
-    date: "Jan 2020 - Present",
+    date: "Jan 2021 - Dec 2021",
     title: "Computer Science (CS50)",
     desc: `CS50 is Harvard's introduction to the intellectual enterprises of computer science and the art of programming. 
         It's an entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently.`,
     company: "Harvard",
     location: "Remote",
+    icon: "icon-graduation-cap",
+    type: "education",
+    link: "",
+    // https://online-learning.harvard.edu/course/cs50-introduction-computer-science
+  },
+  {
+    date: "Present",
+    title: "Bsc. Computer Science",
+    desc: `studying, experimenting and investigating technological fields such as artificial intelligence, robotics and virtual reality.
+     Seeking to improve the performance of existing computer systems and software. 
+    Developing new hardware or computing techniques and materials`,
+    company: "NOUN",
+    location: "Lagos, Nigeria",
     icon: "icon-graduation-cap",
     type: "education",
     link: "",
