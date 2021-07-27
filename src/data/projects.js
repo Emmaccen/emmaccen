@@ -79,7 +79,7 @@ const projectsData = [
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url: "figma.com/proto/AC0mrDzzgOJJNmIeOQ9UxA/JUST-SHOES?node-id=5%3A1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=5%3A1",
+    url: "https://www.figma.com/proto/AC0mrDzzgOJJNmIeOQ9UxA/JUST-SHOES?node-id=5%3A1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=5%3A1",
     image: ["/images/shoe-store.jpg"],
     link: "https://www.behance.net/emmaccen/",
     linkHover: "Behance",
