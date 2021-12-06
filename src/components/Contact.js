@@ -90,7 +90,7 @@ class Contact extends React.Component {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p className="contactLink">+234-814-397-2237</p>
+                  <p className="contactLink">+234-905-090-0741</p>
                 </div>
               </a>
             </Fade>

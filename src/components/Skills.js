@@ -26,9 +26,9 @@ class Skills extends React.Component {
               <div className="skills">
                 <span className="icon-colours"></span>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS | Sass</li>
-                  <li>Bootstrap | JQuery</li>
+                  <li>HTML5</li>
+                  <li>CSS3 | Sass</li>
+                  <li>Tailwind | antd</li>
                   <li>Figma (UI | UX)</li>
                 </ul>
               </div>
@@ -37,8 +37,8 @@ class Skills extends React.Component {
                 <ul>
                   <li>JavaScript</li>
                   <li>React.Js</li>
+                  <li>Angular</li>
                   <li>C#</li>
-                  <li>Java</li>
                 </ul>
               </div>
               <div className="skills">

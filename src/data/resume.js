@@ -104,6 +104,38 @@ const resume = [
     type: "achievement",
     link: "/images/award.png",
   },
+  {
+    date: "2021",
+    title: "Featured in weekly must read",
+    desc: `Awarded for having at least one post featured in the weekly "must-reads" on "Dev.to" list at any point. Check my blog series for more information`,
+    company: "Dev",
+    location: "Dev.to",
+    icon: "icon-medal",
+    type: "achievement",
+    link: "https://dev.to/badge/top-7",
+  },
+  {
+    date: "2021",
+    title: `Top author on "Dev" 2021`,
+    desc: `Awarded for being a top blog author on Dev in 2021. This is such a great breakthrough for me. Check my blog series for more information`,
+    company: "Dev",
+    location: "Dev.to",
+    icon: "icon-medal",
+    type: "achievement",
+    link: "https://dev.to/emmaccen",
+  },
+  {
+    date: "2021",
+    title: `Over 200k helpful post views on Stackoverflow`,
+    desc: `Estimated number of times people viewed my helpful posts
+    (based on page views of my questions
+    and questions where I wrote highly-ranked answers)`,
+    company: "Stackoverflow",
+    location: "Stackoverflow",
+    icon: "icon-medal",
+    type: "achievement",
+    link: "https://stackoverflow.com/users/11299893/emmaccen",
+  },
 ];
 
 export default resume;
