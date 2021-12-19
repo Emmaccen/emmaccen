@@ -212,21 +212,21 @@ const projectsData = [
   //   linkHover: "Behance",
   //   linkIcon: "icon-pinterest2",
   // },
-  {
-    name: "Learning Portal",
-    desc: `A site that offers learning materials in form of Videos and Docs. The fun part is that students can 
-        make submissions to course assignments within the website and as instructed by tutors. 
-        "This Project is still under development"`,
-    type: "Web",
-    typeIcon: "icon-globe",
-    technology: "React.Js",
-    techIcon: "icon-genius",
-    url: "https://devstudy.netlify.app/",
-    image: ["/images/learningPortal.jpg"],
-    link: "https://github.com/Emmaccen/LearningPortal",
-    linkHover: "Git Repo",
-    linkIcon: "icon-git",
-  },
+  // {
+  //   name: "Learning Portal",
+  //   desc: `A site that offers learning materials in form of Videos and Docs. The fun part is that students can
+  //       make submissions to course assignments within the website and as instructed by tutors.
+  //       "This Project is still under development"`,
+  //   type: "Web",
+  //   typeIcon: "icon-globe",
+  //   technology: "React.Js",
+  //   techIcon: "icon-genius",
+  //   url: "https://devstudy.netlify.app/",
+  //   image: ["/images/learningPortal.jpg"],
+  //   link: "https://github.com/Emmaccen/LearningPortal",
+  //   linkHover: "Git Repo",
+  //   linkIcon: "icon-git",
+  // },
   {
     name: "Portfolio UI",
     desc: `This Interface was made for "Deepak Shrivastava", a friend, project manager and dev team member from India. 
@@ -270,20 +270,20 @@ const projectsData = [
     linkHover: "Git Repo",
     linkIcon: "icon-git",
   },
-  {
-    name: "DevLookup",
-    desc: `The idea behind DevLookup is to have a platform where developers around the world can create their 
-        own Profiles | Portfolios and have potential employers look at them. "This Project is still under development".`,
-    type: "Web",
-    typeIcon: "icon-globe",
-    technology: "React.Js",
-    techIcon: "icon-genius",
-    url: "https://devlookup.netlify.app/",
-    image: ["/images/devLookup.jpg"],
-    link: "https://github.com/Emmaccen/devprofile",
-    linkHover: "Git Repo",
-    linkIcon: "icon-git",
-  },
+  // {
+  //   name: "DevLookup",
+  //   desc: `The idea behind DevLookup is to have a platform where developers around the world can create their
+  //       own Profiles | Portfolios and have potential employers look at them. "This Project is still under development".`,
+  //   type: "Web",
+  //   typeIcon: "icon-globe",
+  //   technology: "React.Js",
+  //   techIcon: "icon-genius",
+  //   url: "https://devlookup.netlify.app/",
+  //   image: ["/images/devLookup.jpg"],
+  //   link: "https://github.com/Emmaccen/devprofile",
+  //   linkHover: "Git Repo",
+  //   linkIcon: "icon-git",
+  // },
 ];
 
 export default projectsData;
