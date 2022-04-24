@@ -9,6 +9,7 @@ function BlogTemplate({ data }) {
     title,
     published_at,
     public_reactions_count,
+    comments_count,
     user,
   } = data;
   return (
@@ -21,7 +22,9 @@ function BlogTemplate({ data }) {
       >
         <div
           className="backgroundFix blogImg"
-          style={{ backgroundImage: `url(${cover_image})` }}
+          style={{
+            backgroundImage: `url(${cover_image ?? "/images/homeBg.jpg"})`,
+          }}
         >
           <div className="blogOverlay">
             <h4>{title}</h4>
@@ -35,11 +38,12 @@ function BlogTemplate({ data }) {
                 {new Date(published_at).toLocaleDateString()}
               </span>
               <span>
-                <i className="icon icon-message"></i> {public_reactions_count}
+                <i className="icon icon-message"></i>
+                {comments_count}
               </span>
               <span>
                 <i className="icon icon-heart"></i>
-                {`${Math.ceil(Math.random() * 15000)}`}
+                {public_reactions_count}
               </span>
             </div>
           </div>

@@ -1,9 +1,18 @@
 const resume = [
   {
+    date: "Oct 2021 - Present",
+    title: "SENIOR REACTJS DEVELOPER",
+    desc: `Experienced digital design and development agency with clientele across US, UK, Canada & Africa`,
+    company: "Charisol",
+    location: "Mountain View, California",
+    icon: "icon-stack",
+    type: "experience",
+    link: "https://www.linkedin.com/company/charisoltech/",
+  },
+  {
     date: "Aug 2020 - Present",
-    title: "Full-Stack Developer",
-    desc: `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc. 
-        Worked on project backend and database using .Net and C#.`,
+    title: "REACTJS && ANGULAR DEVELOPER",
+    desc: `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc.`,
     company: "Quomodo Systems",
     location: "Abuja, Nigeria.",
     icon: "icon-stack",
@@ -11,19 +20,8 @@ const resume = [
     link: "https://quomodosystems.com/",
   },
   {
-    date: "July 2020 - Present",
-    title: "Full Stack Engineer - Intern",
-    desc: `Working with Dualogic and a team of developers in the creation of an ecommerce website with the aim of solving  
-        common ecommerce problems world wide.`,
-    company: "Dualogic",
-    location: "Mumbai, India.",
-    icon: "icon-stack",
-    type: "experience",
-    link: "",
-  },
-  {
     date: "May 2020 - Jul 2020",
-    title: "front-end developer - Intern",
+    title: "FRONT-END DEVELOPER (REACTJS) - INTERN",
     desc: `ArtCab is a breakthrough web application in the ecosystem of film development and film production. 
         ArtCab simplifies the complex process of collaboration and crew-building in the process of filmmaking. 
         Worked and managed company website.`,
@@ -34,38 +32,16 @@ const resume = [
     link: "https://angel.co/company/artcab",
   },
   {
-    date: "Jan, 2020 - June, 2020",
-    title: "full-stack web developer",
+    date: "Jan 2018 - Jan 2020",
+    title: "FRONT-END WEB DEVELOPER (HTML, CSS & JS)",
     desc: `Page is a company that provides software development services such as 
-        UI-UX designs, Mobile and Web applications, consultancy and more. Worked as a Full-Stack web developer.`,
+        UI-UX designs, Mobile and Web applications, consultancy and more. Worked as a Frontend developer.`,
     company: "Page",
     location: "Lagos, Nigeria.",
     icon: "icon-stack",
     type: "experience",
     link: "",
   },
-  {
-    date: "Jan 2018 - Aug, 2020",
-    title: "Barista",
-    desc: `Vestar is the "Home Of Splendiferous Beverage". Deals in coffee, teas, pastries and more. 
-        Worked as a Barista and customer service representative.`,
-    company: "Vestar Coffee",
-    location: "Lagos, Nigeria.",
-    icon: "icon-stack",
-    type: "experience",
-    link: "",
-  },
-  // {
-  //   date: "March 2015 - Dec, 2016",
-  //   title: "Junior Teacher",
-  //   desc: `Worked as a Junior teacher, lecturing Senior Primary (All curriculum) and
-  //       seldom Junior Secondary students in Biology and Chemistry (Scheduled).`,
-  //   company: "Heritage School",
-  //   location: "Lagos, Nigeria.",
-  //   icon: "icon-stack",
-  //   type: "experience",
-  //   link: "",
-  // },
   {
     date: "Jan 2021 - Dec 2021",
     title: "Computer Science (CS50)",
@@ -126,7 +102,7 @@ const resume = [
   },
   {
     date: "2021",
-    title: `Over 200k helpful post views on Stackoverflow`,
+    title: `Over 499k helpful post views on Stackoverflow`,
     desc: `Estimated number of times people viewed my helpful posts
     (based on page views of my questions
     and questions where I wrote highly-ranked answers)`,

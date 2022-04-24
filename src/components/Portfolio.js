@@ -60,11 +60,11 @@ class Portfolio extends React.Component {
   }
   componentWillMount() {
     this.setState({
-      projectsData,
       current: projectsData,
     });
   }
   filter(e, tab) {
+    e.preventDefault();
     const activeTab = () => {
       const tab = document.getElementsByClassName("portfolioTab");
       for (let i = 0; i < tab.length; i++) {
@@ -78,10 +78,11 @@ class Portfolio extends React.Component {
       });
       activeTab();
     } else {
-      const current = this.state.projectsData.filter((items) => {
+      const current = projectsData.filter((items) => {
         // console.log(items.type === tab)
-        return items.type === tab;
+        return items.type.toLowerCase() === tab.toLowerCase();
       });
+      console.log(current.length);
       this.setState({
         current,
       });
@@ -105,7 +106,7 @@ class Portfolio extends React.Component {
           techIcon={project.techIcon}
           technology={project.technology}
           techIconImg={project.techIconImg}
-          key={project.name}
+          key={project.imgae}
         />
       );
     });

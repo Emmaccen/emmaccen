@@ -1,9 +1,21 @@
 const projectsData = [
   {
-    name: "Beverage e-store",
-    desc: `This is an enterprises e-commerce application targeted at beverage stores.
-    I've kept the repository private and the demo site might be offline soon, 
-    the UI design is always open for preview. I'm open to discussing the project in detail.`,
+    name: "MailDrip",
+    desc: `Send drip emails that reach the heart of your audience with Maildrip’s easy-to-use platform, guaranteed to improve sales.
+    (Heading an engineering team of 3 developers)`,
+    type: "Web",
+    typeIcon: "icon-globe",
+    technology: "React.Js",
+    techIcon: "icon-genius",
+    url: "https://maildrip.io/",
+    image: ["/images/maildrip.jpg"],
+    link: "https://github.com/Emmaccen/",
+    linkHover: "Repository Is Private",
+    linkIcon: "icon-git",
+  },
+  {
+    name: "korphy Store",
+    desc: `An enterprises e-commerce application targeted at beverage stores [Admin]. (Built entirely by yours truely)`,
     type: "Web",
     typeIcon: "icon-globe",
     technology: "React.Js",
@@ -15,9 +27,9 @@ const projectsData = [
     linkIcon: "icon-git",
   },
   {
-    name: "Siwes UI",
-    desc: `This is a Siwes UI, partnering with a backend developer to automate Siwes processes in universities. 
-    Currently building the App in React.`,
+    name: "SIWES UI",
+    desc: `This is a SIWES UI, partnering with a backend developer to automate SIWES processes in Nigerian/African universities. 
+    (Designed entirely by yours truely).`,
     type: "UI | UX",
     typeIcon: "icon-round-brush",
     technology: "Figma",
@@ -30,21 +42,8 @@ const projectsData = [
     linkIcon: "icon-round-brush",
   },
   {
-    name: "MailDrip",
-    desc: `MailDrip helps you send timely automated emails that connect with your audience. Currently building it for a company`,
-    type: "Web",
-    typeIcon: "icon-globe",
-    technology: "React.Js",
-    techIcon: "icon-genius",
-    url: "https://app.maildrip.io/home",
-    image: ["/images/maildrip.png"],
-    link: "https://github.com/Emmaccen/",
-    linkHover: "Repository Is Private",
-    linkIcon: "icon-git",
-  },
-  {
-    name: "Beverage Store",
-    desc: `Vestar coffee is a beverage store application that allows people to order coffee online.`,
+    name: "korphy Store",
+    desc: `korphy store. A beverage store application that allows people to order coffee online [Customer]. (Built by yours truely)`,
     type: "Web",
     typeIcon: "icon-globe",
     technology: "React.Js",
@@ -58,7 +57,7 @@ const projectsData = [
   {
     name: "Bevily Foods",
     desc: `'Bevily Foods' is a food company that offers commercial food services to people ranging from online 
-        food ordering to table bookings and many more. Its a side project i came up with, and this online store is 
+        food orderings, to table bookings and many more. Its a side project i came up with, and this online store is 
         purely fictious and non-existent. I love playing around with designs and applications.`,
     type: "Web",
     typeIcon: "icon-globe",
@@ -71,8 +70,8 @@ const projectsData = [
     linkIcon: "icon-git",
   },
   {
-    name: "Beverage e-store UI",
-    desc: `This is an enterprises e-commerce UI targeted at beverage stores. I'm open to discussing the project in detail.`,
+    name: "korphy Store UI",
+    desc: `This is an enterprises e-commerce UI targeted at beverage stores. (Designed by yours truely)`,
     type: "UI | UX",
     typeIcon: "icon-round-brush",
     technology: "Figma",
@@ -86,7 +85,7 @@ const projectsData = [
   },
   {
     name: "TYPO",
-    desc: `Typo is an application that helps you improve your typing speed and accuracy. It's got real-time error checking, analytics and more.`,
+    desc: `Typo is an application that helps you improve your typing speed and accuracy. It's got real-time error checking, analytics and more. (Built by yours truely)`,
     type: "Web",
     typeIcon: "icon-globe",
     technology: "React.Js",
@@ -112,7 +111,7 @@ const projectsData = [
   },
   {
     name: "Shoe e-store UI",
-    desc: `Ecommerce store for shoes. Definitely lunching this one soon.`,
+    desc: `Ecommerce store for shoes. Definitely lunching this one soon. (Designed by yours truely)`,
     type: "UI | UX",
     typeIcon: "icon-round-brush",
     technology: "Figma",
@@ -156,14 +155,14 @@ const projectsData = [
   {
     name: "Blog Post UI",
     desc: `Blogging on dev.to, this Interface serves as a reference to one of my Articles (How To Build Your portfolio website...)". 
-        Covers the use of pure "HTML, CSS & JS" and "React.js"`,
+        Covers the use of pure "HTML and CSS"`,
     type: "UI | UX",
     typeIcon: "icon-round-brush",
     technology: "Figma",
     techIcon: "",
     techIconImg: "/images/figma.svg",
-    url: "https://www.figma.com/proto/gePnC81zNLB6tgUZJKradU/Portfolio-Blog-Layout?node-id=0%3A3&scaling=scale-down-width",
-    image: ["/images/blogUi.png"],
+    url: "https://www.figma.com/file/06sZmTFTbPFJjm918O7TKP/Dev-Portfolio?node-id=0%3A1",
+    image: ["/images/blogUi.jpg"],
     link: "https://www.behance.net/emmaccen/",
     linkHover: "Behance",
     linkIcon: "icon-pinterest2",

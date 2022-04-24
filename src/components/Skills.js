@@ -35,10 +35,10 @@ class Skills extends React.Component {
               <div className="skills">
                 <span className="icon-code"></span>
                 <ul>
-                  <li>JavaScript</li>
-                  <li>React.Js</li>
+                  <li>React.Js | Typescript</li>
                   <li>Angular</li>
                   <li>C#</li>
+                  <li>Rust</li>
                 </ul>
               </div>
               <div className="skills">

@@ -605,6 +605,9 @@ button:hover {
 .resumeTabs {
   text-align: center;
 }
+.resumeTabs label {
+  font-family: quicksand;
+}
 .resumeTabs .icon {
   font-size: 25px;
 }

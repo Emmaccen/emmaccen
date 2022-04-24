@@ -35,8 +35,8 @@ class About extends React.Component {
                 and
                 <span className="primary"> Maintainable</span> websites in
                 fast-paced, collaborative environments. I'm Proficient at{" "}
-                <span className="primary">Creating</span> compelling user interfaces and a{" "}
-                <span className="primary">Team Player </span>
+                <span className="primary">Creating</span> compelling user
+                interfaces and a <span className="primary">Team Player </span>
                 versed in <span className="primary">Scrum</span> &{" "}
                 <span className="primary">Agile</span>.
               </p>

@@ -12,7 +12,7 @@ class Landing extends React.Component {
             <p className="f-2">
               I'm <span className="name emphasise">Lucius Emmanuel.</span>
             </p>
-            <p>A Freelance Web Developer. I Bring Your Ideas To Life.</p>
+            <p>A Decorated Frontend Developer. I Bring Your Ideas To Life.</p>
           </div>
           <div className="centered">
             <div>

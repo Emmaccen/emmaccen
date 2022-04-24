@@ -32,7 +32,7 @@ class Services extends React.Component {
                 <div className="serviceContent">
                   <span className="icon icon-round-brush"></span>
                   <h1 className="serviceTitle">UI | UX</h1>
-                  <p>User Interface designs in Figma or AdobeXD.</p>
+                  <p>User Interface designs in Figma.</p>
                 </div>
               </div>
             </Fade>
@@ -41,7 +41,7 @@ class Services extends React.Component {
                 <div className="serviceContent">
                   <span className="icon icon-database"></span>
                   <h1 className="serviceTitle">Database</h1>
-                  <p>Creation and management of Firebase, .Net/SQL databases</p>
+                  <p>Creation and management of .Net/SQL databases</p>
                 </div>
               </div>
             </Fade>
