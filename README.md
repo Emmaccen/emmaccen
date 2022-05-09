@@ -12,7 +12,7 @@ I've worked on numerous projects such as **LMS** (Learning Management System), w
 
 I’ve also had the opportunity to work on huge banking applications such as “DocStream”, which is a document 📂 and access management software for **Fidelity Bank**, where I functioned on parts of the customer, admin, and enterprise modules.
 
-I've had the privilege to collaborate on Automated systems projects ([Mail automation](https://maildrip.io/) 📬, internal accessibility systems, etc.) for internal and external company products, amongst others such as e-commerce and many more.
+I've had the privilege to collaborate on Automated systems projects ([Mail automation](https://maildrip.io/) 📬, internal accessibility systems, etc.) for internal and external company products, amongst others such as e-commerce, [the famous ddw](https://www.dontdiewondering.com/) and many more.
 
 I'm familiar (and worked) with project management tools like [Atlassian](https://www.atlassian.com/) ("[Jira](https://www.atlassian.com/software/jira) and confluence", "[Trello](https://trello.com/home)") and "Microsoft teams".
 
