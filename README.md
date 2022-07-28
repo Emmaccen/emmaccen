@@ -2,6 +2,8 @@
 
 My name is Emmanuel Lucius. I am a professional web developer with **4+ years of experience** 💪 building to scale web applications using modern technologies such as **ReactJs** (In Typescript and NextJs) for front-facing applications 📱 💻 .
 
+I am currently functioning in the **Crypto 🪙 | Blockchain 🔗 | DeFi 💹 space** where I'm involved heavily in the **Decentralized Finance** aspect of Blockchain development at [SmartFi](https://smartfi.com/).
+
 I have good knowledge of Component libraries like **Antd** (ant design) and Material UI (Still strengthening my foot in this 😇). I follow great design patterns and best practices that allow me to write code 👨‍💻 that's easily manageable and scalable. I'm comfortable working with APIs and databases.
 
 In my free time, I learn **OOP** and other frameworks (C# && .Net) which has helped me to solidify 💪 my knowledge of how backend technologies work and how the client-side interacts with data.
@@ -22,10 +24,8 @@ Thanks for checking out my profile, it’s a pleasure to meet you 🤝.
 
 Please do follow 👍 for awesome programming content and blogs ✅
 
-✅ [GitHub](https://github.com/emmaccen)
+✅ [GitLab](https://gitlab.com/Emmaccen)
 
 ✅ [Blogs](https://dev.to/emmaccen)
 
 ✅ [LinkedIn](https://www.linkedin.com/in/emmanuel-lucius-emmaccen/)
-
-✅ [Portfolio](https://emmaccen.netlify.app/)
