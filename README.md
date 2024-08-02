@@ -4,7 +4,7 @@ My name is Emmanuel Lucius. I am a software engineer with 5+ years of experience
 
 ## Summary 📃
 
-Open Source Contributions: ✔️ [@Meta](https://github.com/facebook) ✔️ [@Next-Image-Export-Optimizer](https://github.com/Niels-IO/next-image-export-optimizer) ✔️ [@11ty](https://github.com/11ty/11ty-website) ✔️ [@React-QR-Reader](https://github.com/JodusNodus/react-qr-reader) ✔️ [@DDW](https://github.com/dontdiewondering) ✔️[@KomodoPlatform](https://github.com/KomodoPlatform)
+Open Source Contributions: ✔️ [@Mdn](https://github.com/mdn) ✔️ [@Meta](https://github.com/facebook) ✔️ [@Next-Image-Export-Optimizer](https://github.com/Niels-IO/next-image-export-optimizer) ✔️ [@11ty](https://github.com/11ty/11ty-website) ✔️ [@React-QR-Reader](https://github.com/JodusNodus/react-qr-reader) ✔️ [@DDW](https://github.com/dontdiewondering) ✔️[@KomodoPlatform](https://github.com/KomodoPlatform)
 
 AI Tools: ✔️ ChatGpt ✔️ Claude ✔️ MidJorney ✔️ You.com ✔️ Tabnine ✔️ Copilot ✔️ BlackBox
 
