@@ -1,33 +1,26 @@
 # Hello there 👋,
 
-My name is Emmanuel Lucius. I am a software engineer with 5+ years of experience 💪
+I'm a Senior Frontend Developer passionate about building exceptional user experiences and empowering the next generation of developers.
 
-## Summary 📃
+## What I'm working on
+- 🚀 Leading frontend development at **Komodo Wallet** - blockchain applications serving thousands of users
+- 🌱 Mentoring aspiring developers through **Magnamentes**
+- 🔧 Building open source tools that solve real problems
 
-Open Source Contributions: ✔️ [@Mdn](https://github.com/mdn) ✔️ [@Meta](https://github.com/facebook) ✔️ [@Next-Image-Export-Optimizer](https://github.com/Niels-IO/next-image-export-optimizer) ✔️ [@11ty](https://github.com/11ty/11ty-website) ✔️ [@React-QR-Reader](https://github.com/JodusNodus/react-qr-reader) ✔️ [@DDW](https://github.com/dontdiewondering) ✔️[@KomodoPlatform](https://github.com/KomodoPlatform)
+## Tech I work with
+**Frontend:** React • NextJS • TypeScript  
+**Backend:** Rust  
+**Blockchain:** DeFi • Smart Contracts • Web3  
+**Tools:** AI • Docker • AWS • Git • CI/CD
 
-AI Tools: ✔️ ChatGpt ✔️ Claude ✔️ MidJorney ✔️ You.com ✔️ Tabnine ✔️ Copilot ✔️ BlackBox
+## Community
+- 📝 Top Author on DEV.to (2021)
+- 💡 1.2M+ helpful views on StackOverflow
+- 🏆 DevJam 2020 Hackathon Semi-Finalist
 
-Framework/Code-Langs/Tools I currently work with ✔️ NextJS || React ✔️ JS ✔️ TypeScript ✔️ 11ty/Nunjucks ✔️ Figma
+## Let's connect
+- 💼 [LinkedIn](https://www.linkedin.com/in/emmanuel-lucius-emmaccen/)
+- 📧 [Email](mailto:lucius.emmanuel.e@gmail.com)
 
-State Management: ✔️ Redux ✔️ Recoil ✔️ Zustand
-
-CSS Framework / UI Tools: ✔️ MUI ✔️ Tailwind ✔️ AntD ✔️ SCSS
-
-Version Control / Platform: ✔️ Git ✔️ GitHub ✔️ GitLab
-
-Project Management Tools: ✔️ Asana ✔️ MS-Teams ✔️ GitHub ✔️ Trello ✔️ Notion ✔️ Jira ✔️ Mattermost ✔️ Element
-
-Used Previously: ✔️ Angular ✔️ Java ✔️ C# && .Net
-
-Currently Learning: ✔️ Rust ✔️ Solidity ✔️ Project Management
-
-Thanks for checking out my profile, it is a pleasure to meet you 🤝.
-
-Do follow 👍 if you'd like to connect with me 💪
-
-✅ [LinkedIn](https://www.linkedin.com/in/emmanuel-lucius-emmaccen/)
-
-✅ [GitLab](https://gitlab.com/Emmaccen)
-
-✅ [Blogs](https://dev.to/emmaccen)
+---
+*"Building solutions that matter, one commit at a time"*
