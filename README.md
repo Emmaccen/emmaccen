@@ -42,6 +42,7 @@ I specialize in **React**, **Next.js**, **TypeScript**, and **Web3**, with a foc
 ## 📫 Let’s Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/emmanuel-lucius-emmaccen/)
+- 📚 [Substack](https://substack.com/@emmaccen)
 - 🧑‍💻 [GitHub](https://github.com/emmaccen)
 - 📧 [lucius.emmanuel.e@gmail.com](mailto:lucius.emmanuel.e@gmail.com)
 
